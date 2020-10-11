@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.welcome-page {
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        margin-right: -80%;
+        transform: translate(-50%, -50%);
+        padding: 100px;
+        padding-bottom: 100px;
+        background: linear-gradient(160deg, white, #01cfd5, #202d41);
+}
+
+#safety-go-logo {
+  height: auto;
+  width: auto;
+  border: solid 4px;
+  border-radius:50%;
+}
+
+.welcome-page h1 {
+  text-align: center;
+  border-bottom: 2px solid;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  padding: 2px;
+  color: #202d41;
+}
+
+.welcome-page h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: #202d41;
+  margin-bottom: 0px;
+}
+
+.welcome-page text {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #202d41;
+  margin: 2px 150px 9px 150px;
+}
+.sign-in-button {
+  width: 100%;
+  background: none;
+  border: 2px solid;
+  margin-top: 20px;
+  padding: 3px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  color: #202d41;
+}
+
+.footer {
+  margin-top: 200px;
+  margin-left: 80px;
+  position: absolute;
+  bottom:10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+
+}

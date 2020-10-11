@@ -1,0 +1,21 @@
+.shape{
+    text-align:center;
+    background-color:rgba(55, 233, 79, 0.7);
+    width:400px;
+    height:150px;
+    line-height:60px;
+    color:white;
+    margin:20px auto;
+    position:relative;
+  }
+
+  .shapetwo{
+    text-align:center;
+    background-color:rgba(233, 55, 55, 0.7);
+    width:400px;
+    height:150px;
+    line-height:60px;
+    color:white;
+    margin:20px auto;
+    position:relative;
+  }

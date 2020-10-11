@@ -1,0 +1,83 @@
+.login-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 100px;
+  padding-bottom: 300px;
+  background: linear-gradient(160deg, white, #01cfd5, #202d41);
+  
+}
+
+.login-page h1 {
+  float: left;
+  border-bottom: 2px solid;
+  font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+  padding: 2px;
+  color: #202d41;
+}
+
+.parent-id {
+  width: 90%;
+  border-bottom: 1px solid;
+  padding: 10px;
+  overflow: hidden;
+  font-size: 25px;
+  color: #202d41;
+}
+
+.parent-id input {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  color: #202d41;
+}
+
+.parent-password {
+  width: 90%;
+  border-bottom: 1px solid;
+  padding: 10px;
+  overflow: hidden;
+  font-size: 25px;
+  color: #202d41;
+}
+.parent-password input {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  color: #202d41;
+}
+
+.sign-in-button {
+  width: 95%;
+  background: none;
+  border: 2px solid;
+  margin-top: 20px;
+  padding: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  color: #202d41;
+  margin-bottom: 50px;
+}
+
+.school-list label {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.school-list select {
+  width: 95%;
+  background: none;
+  border: 2px solid #202d41;
+  padding: 8px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+
+}

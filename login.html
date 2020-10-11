@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link href="css/login.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+<body>
+    	<!-- Creating a log in page for parents. -->
+    	<div class="login-page" >
+
+    	<h1> Login </h1>
+    		<!-- Creating parent ID input box-->
+        <form id="formId" method="post" name="myform">
+          
+    		  <div class="parent-id">
+    			<input type="text" placeholder="Username ID" id="parent-id" name="parent-id">
+    		  </div>
+
+			<!--Creating password input box-->    		
+			  <div class="parent-password">
+    			<input type="password" placeholder="Password" name="parent-password" id="parent-password">
+    	  </div>
+        
+      <!--School selection drop down--> 
+         <div class="school-list">
+           <form id="link">
+            <p> </p>
+             <label for="schools"> Choose a school: </label>
+             <select name="schools" id="schools">
+               <option> Toyota Elementary </option>
+               <option> Lexus Elementary </option>
+               <option> Aichi Elementary </option>
+               <option> Kamigo Elementary </option>
+               <option> Shimomaya Elementary </option>  
+             </select> 
+    	<!-- Sign in button -->
+        <input class="sign-in-button" type="button" value="Sign in" onclick=validate()>	
+    	</div>
+        </form>
+</body>
+<!-- partial -->
+<script src="js/scriptlogin.js"></script>
+
+</body>
+</html>
