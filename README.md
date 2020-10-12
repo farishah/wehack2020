@@ -1,4 +1,4 @@
-wehack2020 - Toyota Challenge #2
+# wehack2020 - Toyota Challenge #2
 
 Tech Stack: Bootstrapped with HTML, CSS and Javascript
 
