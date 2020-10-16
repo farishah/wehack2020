@@ -1,6 +1,6 @@
 # wehack2020 - Toyota Challenge #2
 
-Update 10/15/2020: First Place Winner of WeHack 2020 Toyota Challenge 
+Update 10/15/2020: First Place Winner of the WeHack 2020 Toyota Challenge 
 
 Tech Stack: Bootstrapped with HTML, CSS and Javascript
 
